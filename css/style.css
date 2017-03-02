@@ -1,0 +1,108 @@
+.welcome_humans {
+	width: 100%;
+	background-image: url("../images/piskel.png");
+	height: 100vh; 
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+	background-position: center;
+	background-size: cover;
+}
+.my_drawings {
+	width: 50%;
+	height: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.my_informathion {
+	width: 50%;
+	height: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.my_inspiration {
+	width: 50%;
+	height: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.my_projects {
+	width: 50%;
+	height: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contact {
+	width: 100%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	padding: 10px;
+}
+.my_information_page {
+		width: 100%;
+	background-image: url("../images/tornado.png");
+	height: 100vh; 
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+	background-position: center;
+	background-size: cover;
+}
+.info {
+	color: black;
+	width: 50%;
+	font-size: 45px;
+}
+.my_pic {
+	width: 15%;
+	height: 40%;
+	background-color: black;
+}
+.my_drawings_page {
+		width: 100%;
+	background-image: url("../images/cave_tree.png");
+	height: 100vh; 
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+	background-position: center;
+	background-size: cover;
+}
+.pics {
+	color: yellow;
+	font-size: 45px;
+}
+.my_inspiration_page {
+		width: 100%;
+	background-image: url("../images/.png");
+	height: 100vh; 
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white;
+	background-position: center;
+	background-size: cover;
+}
+.content {
+	color: black;
+	width: 50%;
+	font-size: 45px;
+}
