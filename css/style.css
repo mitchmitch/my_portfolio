@@ -30,6 +30,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
 }
 .my_projects {
 	width: 50%;
@@ -62,16 +63,22 @@ a {
 	color: white;
 	background-position: center;
 	background-size: cover;
+
 }
 .info {
 	color: black;
 	width: 50%;
 	font-size: 45px;
+		background-color: rgba(0,0,0,0.3);
+	padding: 5px;
 }
 .my_pic {
 	width: 15%;
 	height: 40%;
 	background-color: black;
+	position: absolute;
+	right: 15%;
+	top: 150px;
 }
 .my_drawings_page {
 		width: 100%;
@@ -91,18 +98,69 @@ a {
 }
 .my_inspiration_page {
 		width: 100%;
-	background-image: url("../images/.png");
-	height: 100vh; 
+	background-image: url("../images/my_insp.png");
+	height: 100%; 
 	display: flex;
 	flex-flow: row wrap;
+	font-size: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+.content {
+	color: white;
+	width: 50%;
+	font-size: 45px;
+}
+.my_project_s {	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
 	font-size: 50px;
 	font-family: 'Gloria Hallelujah', cursive;
 	color: white;
 	background-position: center;
 	background-size: cover;
+
 }
-.content {
-	color: black;
-	width: 50%;
-	font-size: 45px;
+
+.my_project_page {
+		width: 100%;
+	background-image: url("../images/Red_Black.png");
+	height: 100vh; 
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 35px;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: white ;
+	background-position: center;
+	background-size: cover;
+}
+
+
+img { 
+max-width: 100%;}
+
+
+.cycle-slideshow {
+    width: 65%;
+    min-width: 200px;
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 0;
+    position: relative;
+  }
+
+.words {
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	padding: 10px;
+}
+
+
+.text {
+	padding: 100px;
 }
